@@ -97,8 +97,8 @@ def draw_parameter_plot(parameter, initial_parameter_1, initial_parameter_2, ini
   for parameter, value in initial_parameters_left_values.items():
     title += (parameter + '=' + str(value) + ' ')
   ax.set_title(title)
-  ax.set_xlabel(initial_parameter_1 + ' value')
-  ax.set_ylabel(initial_parameter_2 + ' value')
+  ax.set_ylabel(initial_parameter_1 + ' value')
+  ax.set_xlabel(initial_parameter_2 + ' value')
 
   pyplot.show()
 
