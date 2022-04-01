@@ -112,5 +112,7 @@ initial_parameters = [
 ]
 
 draw_parameter_plot('alpha', 'sigma_m', 'sigma_w', initial_parameters, results)
+draw_parameter_plot('beta', 'sigma_m', 'sigma_w', initial_parameters, results)
+draw_parameter_plot('gamma', 'sigma_m', 'sigma_w', initial_parameters, results)
 draw_parameter_plot('pop_error', 'sigma_m', 'sigma_w', initial_parameters, results)
 draw_parameter_plot('pcf_error', 'sigma_m', 'sigma_w', initial_parameters, results)
