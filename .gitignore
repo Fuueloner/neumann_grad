@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Compiled files
+Digraph.gv
+Digraph.gv.pdf
+
+# Input data for processing
+in_data/*
+
+# Results of processing
+out_data/*
